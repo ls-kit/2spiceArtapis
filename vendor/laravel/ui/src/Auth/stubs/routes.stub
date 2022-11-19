@@ -1,0 +1,4 @@
+
+Auth::routes();
+
+Route::get('admin/home', 'HomeController@index')->name('home');
